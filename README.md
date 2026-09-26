@@ -36,12 +36,8 @@ A building permit is formal city approval to construct, demolish, renovate, or a
 | `STATUS` had 51 raw values, too granular for trend analysis | Grouped into 6 categories (In Progress, Issued, Issued - Not Started, Pending, On Hold, Other) |
 | 22,248 rows sharing a `PERMIT_NUM` | Confirmed as legitimate permit *revisions* (via `REVISION_NUM`), not duplicate records — kept as-is |
 
-## Recommendations
+<img width="1383" height="754" alt="image" src="https://github.com/user-attachments/assets/75c09d81-47bb-41c6-be94-f6327af49dbc" />
 
-1. **Audit the slowest wards** (E2330, E2226, W0538, N1629) for root cause — likely candidates are inspector staffing ratios, application complexity mix, or backlog from a specific period. A targeted resourcing shift could bring these in line with the city median (~30 days) rather than 200-800+ days.
-2. **Set permit-type-specific SLAs** rather than a single citywide target — a 276-day median for New Building permits is a different service class than a 19-day median for Small Residential Projects, and communicating this distinction would improve applicant expectations and reduce inquiry volume.
-3. **Plan staffing for the May application surge** — pre-allocate review capacity ahead of the spring peak rather than reacting to it, given the consistent ~35% seasonal swing.
-4. **Investigate the 2021-2023 processing-time spike** — determine whether the post-pandemic demand surge outpaced hiring, and whether the 2024-2025 improvement reflects a policy/staffing change worth formalizing.
 
 ## Repository Structure
 
